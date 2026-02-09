@@ -1,4 +1,4 @@
-##Book Inventory Management System
+##Book Inventory Management System##
 
 The Book Inventory Management System is a web-based application designed to manage book records in a digital and organized way. The system helps replace manual or spreadsheet-based inventory tracking with a centralized online solution.
 
