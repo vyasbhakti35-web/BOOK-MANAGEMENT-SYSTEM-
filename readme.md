@@ -4,39 +4,47 @@ Group Members:
 - Name 3 (Bhakti Vyas)
 
 
-📘 Book Inventory Management System
+📘 Book Store App
+📌 Project Overview
 
-📌 Project Description
-
-The Book Inventory Management System is a web-based application designed to manage book records in a structured and digital format. The system helps replace manual and spreadsheet-based inventory tracking with a centralized online solution.
+The Book Store App is a web-based application that allows users to register, log in, and browse books online. The application provides access to both free books and restricted (purchased) books, where access is controlled through user authentication and permissions rather than real payment processing.
 
 This project is developed as part of a Web Development course to demonstrate full-stack application concepts.
 
-🎯 Project Objective
+👤 Target Users
 
-The main objective of this project is to build a system that allows efficient management of book inventory while demonstrating the integration of frontend, backend, and database components.
+Users (Customers):
+Customers can create an account, log in, browse available books, access free books, and view purchased books based on access permissions.
+
+Administrators:
+Administrators manage book content and control access permissions for restricted books.
 
 ✨ Key Features
 
-Add books to the inventory
+User registration, login, and logout
 
-View book records in a centralized system
+Access to free books for all users
 
-Update book information
+Access to restricted (purchased) books based on permissions
 
-Delete outdated book records
+Book content management by administrators
 
-Store data permanently using a database
+Secure data storage using a database
+
+🔐 Purchase and Access Model (Important)
+
+This application does not include real payment processing.
+The concept of “purchase” is simulated and used only to demonstrate access control and authorization. Integration of real payment gateways is considered a future enhancement.
 
 🧱 System Architecture
 
-The application follows a client–server–database architecture:
+The Book Store App follows a client–server–database architecture:
 
-The frontend handles user interaction
+The frontend provides the user interface for browsing books and managing accounts
 
-The backend processes requests and applies business logic
+The backend handles authentication, authorization, and application logic
 
-The database stores all book inventory data persistently
+The database stores user data, book information, and access permissions
 
 🛠️ Technologies Used
 
@@ -46,16 +54,31 @@ Backend: Node.js, Express.js
 
 Database: MongoDB
 
-📈 Project Scope
+📂 Project Documentation
 
-This project focuses on implementing CRUD operations for managing book inventory. Advanced features such as authentication and analytics are considered future enhancements.
+README.md – Project overview
 
-🔮 Future Enhancements
+srs.md – Software Requirements Specification
 
-Search and filter functionality
+tests/ – Manual test cases and testing documentation
+
+🎯 Project Purpose
+
+The purpose of this project is to demonstrate:
 
 User authentication and authorization
 
-Improved user interface
+Access control for free and restricted content
 
-Stock level alerts
+Full-stack web application development using modern technologies
+
+🔮 Future Enhancements
+
+Integration of real payment gateways
+
+Order and transaction management
+
+Subscription-based access
+
+Improved user interface and user experience
+
