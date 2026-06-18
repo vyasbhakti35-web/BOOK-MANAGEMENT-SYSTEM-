@@ -1,6 +1,4 @@
-Group Members:
-- Name 1 (Jay Shihora)
-- Name 2 (Vrushil Gajera)
+
 - Name 3 (Bhakti Vyas)
 
 
